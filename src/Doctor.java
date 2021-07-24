@@ -1,10 +1,16 @@
 public class Doctor {
     int id;
     String name;
-    String speciality;
+    String email;
+    String address;
+    String phoneNumber;
+    String birthday;
+    Double weight;
+    Double height;
+    String blood;
 
-    Doctor(String name){
-
+    Doctor(String n){
+        name = n;
     }
 
     public void showName(){
